@@ -25,7 +25,38 @@
 <!-- Header ende -->
 
 <div class="content_row">
-    Inhalt Types
+    <div class="column_1">
+        <span>
+           Technology:
+        </span>
+
+        <span>
+           Product line:
+        </span>
+
+    </div>
+
+    <div class="column_2">
+        <select class="select_row_1" name="technology">
+            <option>Coriolis mass flowmeter (RotaMass)</option>
+            <option>Variable Area Flowmeter (Rotameter)</option>
+        </select>
+
+        <select class="select_row_2" name="product_line" disabled>
+            <option>All</option>
+            <option>RotaMass 3</option>
+            <option>RotaMass 4</option>
+            <option>Metal rotamter</option>
+            <option>glass rotameter</option>
+        </select>
+    </div>
+
+    <div class="column_3">
+        <img src="images/Rotamass3.svg">
+    </div>
+
+
+
 </div>
 
 <!-- Header PROCESS DATA -->
@@ -43,7 +74,22 @@
 <!-- Header ende -->
 
 <div class="content_row">
-    Fluid type
+    <div class="column_1">
+        <span>Fluid type</span>
+
+    </div>
+
+    <div class="column_2">
+
+            <input type="radio" id="li" name="fluidtype" value="Liquid">
+            <label for="li"> Liquid</label>
+            <input type="radio" id="ga" name="fluidtype" value="Gas">
+            <label for="ga">Gas</label><br>
+
+    </div>
+
+
+
 </div>
 
 
@@ -92,7 +138,12 @@
 
 
 <div class="button_row">
-    verschiedene buttons
+    <div class="button_footer">
+        <img src="images/Calculate.svg">
+        <span>Calculate</span>
+
+    </div>
+
 </div>
 
 
