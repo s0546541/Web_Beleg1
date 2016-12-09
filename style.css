@@ -1,145 +1,116 @@
 body {
     font-family: Verdana;
     font-size: 11px;
-    width: 800px;
-    align-self: center;
+    width: 675px;
+
     margin-left: auto;
     margin-right: auto;
 }
 
-
-
-.header {
-    width: 100%;
-    height: 28px;
-    background-color: #c3ced5;
-}
-
-.content_row {
-    width: 100%;
-    /*height: 50px;*/
-    background-color: #f0f5f8;
-    margin-bottom: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.divider {
-    width: 100%;
-    height: 5px;
-    background-color: #e96134;
-}
-
-.divider_small {
-    width: 100%;
-    height: 1px;
-    background-color: #e96134;
-}
-
-.button_row {
-    width: 100%;
-    /*height: 50px;*/
-    background-color: bisque;
-}
-
-.header_left {
-    display: inline;
-    width: 100%;
-    height: 100%;
+body > div {
     padding-left: 10px;
-    line-height: 25px;
+    padding-right: 15px;
 }
 
-.ueberschrift {
-    display: inline;
+table {
+    float: left;
+}
+
+select {
     font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-.headerdot {
-
-}
-
-.header_right {
-    height: 100%;
-    display: inline;
-    float: right;
-    margin-right: 10px;
-}
-
-.header_img {
-    padding-top: 3px;
-}
-
-.column_1 {
-    height: auto;
-}
-
-
-
-.content_row > .column_1 {
-    display: inline-block;
-    width: 20%;
-    height: 100%;
-}
-
-.content_row > .column_2 {
-    display: inline-block;
-    width: 43%;
-    height: 100%;
-
-}
-
-.content_row > .column_3 {
-    display: inline-block;
-    width: 17%;
-    height: 100%;
-}
-
-.content_row > .column_4 {
-    display: inline-block;
-    width: 10%;
-    height: 100%;
-    float: right;
-}
-
-
-.column_1 > span {
-    display: block;
-    margin: 10px;
-}
-
-.column_2 > select {
-    width: 100%;
-    height: 23px;
-    border-color: #c3ced5;
-    margin: 1px;
-}
-
-.column_3 > img {
-
-    height: 45px;
-}
-
-.column_3 {
-    margin-top: auto;
-    margin-bottom: auto;
+#checkbox {
+    margin-top: 5px;
     margin-left: 10px;
 }
 
-.column_2 > input {
-    border-color: #c3ced5;
+#rotamass_logo {
+    float: left;
+    width: 55px;
+    margin-top: 2px;
+    margin-left: 10px;
 }
 
-.button_footer {
+#fluidtype {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    width: 672px;;
+}
+
+
+
+/* ....BLAUE LEISTE.......................................... */
+.dunkle_leiste {
+    background-color: #c3ced5;
+    width: 100%;
+    height: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dunkle_leiste img {
     display: inline;
-    background-color: darkgoldenrod;
-    padding-bottom: auto;
-    padding-top: auto;
+}
+
+.dunkle_leiste span {
+    font-weight: bold;
+}
+
+.header_punkt {
+
+}
+
+.hilfesymbole {
+    width: 16px;
+    float: right;
+    margin-top: -1px;
+}
+
+.help {
+
+}
+
+.info {
+    margin-right: 6px;
+}
+
+/* ....BLAUE FLAECHE.......................................... */
+
+.blaue_flaeche {
+    background-color: #f0f5f8;
+    width: 675px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+}
+
+.blaue_flaeche span {
+    margin-right: 87px;
+}
+
+.erste_spalte {
     width: 150px;
-    vertical-align: middle;
-
 }
 
-img {
-    display: inline;
+.select_lang {
+    width: 270px;
+}
+
+/*........ABSTAND.......................................................*/
+
+.abstand_groß {
+    clear:both;
+    background-color: white;
+    width: 100%;
+    height: 5px;
+}
+
+.abstand_klein {
+    clear:both;
+    background-color: white;
+    width: 100%;
+    height: 2px;
 }
