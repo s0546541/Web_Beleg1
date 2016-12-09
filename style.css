@@ -1,11 +1,116 @@
 body {
     font-family: Verdana;
     font-size: 11px;
-    width: 800px;
-    align-self: center;
+    width: 675px;
+
     margin-left: auto;
     margin-right: auto;
 }
 
+body > div {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+table {
+    float: left;
+}
+
+select {
+    font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#checkbox {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#rotamass_logo {
+    float: left;
+    width: 55px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+#fluidtype {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    width: 672px;;
+}
 
 
+
+/* ....BLAUE LEISTE.......................................... */
+.dunkle_leiste {
+    background-color: #c3ced5;
+    width: 100%;
+    height: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dunkle_leiste img {
+    display: inline;
+}
+
+.dunkle_leiste span {
+    font-weight: bold;
+}
+
+.header_punkt {
+
+}
+
+.hilfesymbole {
+    width: 16px;
+    float: right;
+    margin-top: -1px;
+}
+
+.help {
+
+}
+
+.info {
+    margin-right: 6px;
+}
+
+/* ....BLAUE FLAECHE.......................................... */
+
+.blaue_flaeche {
+    background-color: #f0f5f8;
+    width: 675px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+}
+
+.blaue_flaeche span {
+    margin-right: 87px;
+}
+
+.erste_spalte {
+    width: 150px;
+}
+
+.select_lang {
+    width: 270px;
+}
+
+/*........ABSTAND.......................................................*/
+
+.abstand_groß {
+    clear:both;
+    background-color: white;
+    width: 100%;
+    height: 5px;
+}
+
+.abstand_klein {
+    clear:both;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}

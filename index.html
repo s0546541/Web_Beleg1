@@ -8,8 +8,89 @@
 
 
 <body>
+    <div class="dunkle_leiste">
+        <img class="header_punkt" src="images/headerdot.svg">
+        <span>FLOWMETER TYPES</span>
+        <img class="hilfesymbole help" src="images/help.svg">
+        <img class="hilfesymbole info" src="images/info.svg">
+    </div>
+
+    <div class="blaue_flaeche">
+        <table class="table_grosses_select">
+            <tr>
+                <td class="erste_spalte">Technology:</td>
+                <td>
+                    <select class="select_lang" name="technology">
+                        <option>Coriolis mass flowmeter (RotaMass)</option>
+                        <option>Variable Area Flowmeter (Rotameter)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="erste_spalte">Product line:</td>
+                <td>
+                    <select class="select_lang" name="productline" disabled>
+                        <option>All</option>
+                        <option selected>RotaMass 3</option>
+                        <option>RotaMass 4</option>
+                        <option>Metal rotamter</option>
+                        <option>glass rotameter</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <img id="rotamass_logo" src="images/Rotamass3.svg">
+
+    </div>
+
+    <div class="abstand_groß"></div>
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::  -->
+    <div class="dunkle_leiste">
+        <img class="header_punkt" src="images/headerdot.svg">
+        <span>PROCESS DATA</span>
+        <img class="hilfesymbole help" src="images/help.svg">
+        <img class="hilfesymbole info" src="images/info.svg">
+    </div>
+
+    <div class="blaue_flaeche" id="fluidtype">
+        <span>Fluid type:</span>
+            <input type="radio" name="fluidtype" value="Liquid" checked>Liquid
+            <input type="radio" name="fluidtype" value="Gas">Gas
+
+    </div>
+
+    <div class="abstand_klein"></div>
+<!-- ...................................................................................... -->
+    <div class="blaue_flaeche">
+        <table class="table_grosses_select">
+            <tr>
+                <td class="erste_spalte">Fluid:</td>
+                <td>
+                    <select class="select_lang" name="fluid">
+                        <option>water</option>
+                        <option>propanol</option>
+                        <option>toluene</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="erste_spalte">Formula:</td>
+                <td>
+                    <select class="select_lang" name="formula">
+                        <option>H2O</option>
+                        <option>C3H7OH</option>
+                        <option>C6H5CH3</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <input id="checkbox" type="checkbox" name="customfluid">Custom fluid
 
 
+
+    </div>
 
 </body>
 
